@@ -1,11 +1,10 @@
 import Navbar from './../components/navbar/navbar';
-import TracingBeamm from '@/components/tracing';
-
+import Homepage from './../components/homepage/homepage'
 export default function Home() {
   return (
     <div>
       <Navbar/>
-      <TracingBeamm/>
+      <Homepage/>
     </div>
   );
 }
