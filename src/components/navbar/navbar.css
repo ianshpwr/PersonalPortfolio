@@ -12,3 +12,15 @@
     height: 5rem;
     width: 5rem;
 }
+@keyframes rotateLogo {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.logo img {
+  animation: rotateLogo 4s linear infinite;
+}
